@@ -1,4 +1,7 @@
 @media screen and (max-width:574px) {
+    .users-cards{
+        max-width: 574px;
+    }
     .user-card {
         flex-direction: column;
     }
@@ -9,14 +12,17 @@
         display: none;
     }
 }
-@media screen and (min-width:574px) {
+@media screen and (min-width:575px) {
+    
     .user-card-avatar1{
         display: none;
     }
     .user-card-avatar2{
         height: 350px;
     }
-
+}
+.users-cards{
+    width: 600px;
 }
 .user-card {
     display: inline-flex;
